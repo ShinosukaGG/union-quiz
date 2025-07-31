@@ -9,7 +9,7 @@ const allQuestions = [
   { q: "\"ZKGM\" stands for:", a: "Zero Knowledge General Messaging", b: "Zero Knowledge Good Morning", correct: "a" },
   { q: "Union’s Mad Yaps allocation Supply?", a: "1% of TS", b: "0.1% of TS", correct: "a" },
   { q: "Union recently partnered with which ZK protocol?", a: "Boundless", b: "zkSync", correct: "a" },
-  { q: "Union Testnet 8 was known for what issue?", a: "Faucet crisis", b: "Fast transactions", correct: "a" },
+  { q: "Union Testnet 8 was known for what issue?", a: "Rigid UI", b: "Fast transactions", correct: "a" },
   { q: "The smallest unit of Union’s token ($U) is called:", a: "atto-U (au)", b: "mini-U (mu)", correct: "a" },
   { q: "Union’s recent BTC integration for liquid staking is named:", a: "auBTC", b: "BTCUnion", correct: "a" },
   { q: "Union's trusted ceremony was for:", a: "ZK Setup", b: "Token Launch", correct: "a" },
@@ -178,7 +178,7 @@ zkgm.
 }
 
 function shareResult() {
-  const tweetText = encodeURIComponent(`I just completed the Union Mega Quiz in ${mode} mode with ${score}/10 correct! 🧠⚡\n\nJoin the challenge and earn your own certificate 👉 union-quiz.vercel.app`);
+  const tweetText = encodeURIComponent(`I just completed the Union Mega Quiz in ${mode} mode with ${score}/10 correct! 🧠⚡\n\nJoin the challenge and earn your own certificate 👉 union-megaquiz.vercel.app`);
   window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
 }
 
