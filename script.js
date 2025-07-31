@@ -178,7 +178,7 @@ zkgm.
 }
 
 function shareResult() {
-  const tweetText = encodeURIComponent(`I just completed the Union Mega Quiz in ${mode} mode with ${score}/10 correct! 🧠⚡\n\nJoin the challenge and earn your own certificate 👉 union-megaquiz.vercel.app`);
+  const tweetText = encodeURIComponent(`I just completed the Union Mega Quiz in ${mode} mode with ${score}/10 correct! 🧠⚡\n\nJoin the challenge and earn your own certificate 👉 union-megaquiz.vercel.app\n\nhttps://x.com/Shinosuka_eth/status/1950978753720705272`);
   window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
 }
 
